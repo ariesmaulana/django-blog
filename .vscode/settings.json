@@ -1,0 +1,21 @@
+{
+    "python.pythonPath": "/home/ariesm/.virtualenvs/blog-django-XV7OzV1d/bin/python",
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length=80"
+    ],
+    "python.sortImports.args": [
+        "-rc",
+        "-sp isort.cfg"
+    ],
+    "editor.formatOnSave": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "html.suggest.html5": true,
+    "html.autoClosingTags": true,
+}
